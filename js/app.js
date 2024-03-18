@@ -34,7 +34,7 @@ for (let i=0; i < teamMembers.length; i++){
 
     //creo elemento colonna nel dom
     const colElement = document.createElement('div');
-    colElement.className = 'col';
+    colElement.className = 'col-4';
     rowContainer.append(colElement);
     
     //inserisco le card nelle colonne
